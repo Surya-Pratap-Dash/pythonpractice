@@ -14,6 +14,7 @@ class Person(object, metaclass=Human, freedom=True, country='USA'):
     def __init__(self, name, age):
         self.name = name
         self.age = age
+        
 
 
 pprint(Person.__dict__)
